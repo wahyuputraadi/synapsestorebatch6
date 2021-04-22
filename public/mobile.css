@@ -1,0 +1,156 @@
+@media (max-width: 991px) {
+    /* halaman */
+    #landing-page,
+    #ListProduct,
+    #Keranjang,
+    #ProductDetails {
+        margin-top: 120px;
+    }
+    /* header */
+    #HeaderStore .navbar {
+        background-color: white;
+    }
+    /* #Banner {
+        margin-top: 120px;
+    } */
+    #Banner .bg-banner {
+        background: linear-gradient(to right, #0066ff, #e5ff00);
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+        color: white;
+        padding-bottom: 30px;
+    }
+    #Banner .bg-banner span {
+        font-weight: bold;
+    }
+    #Banner .bg-banner h1 {
+        font-size: 35px;
+    }
+    #Banner .bg-banner .content {
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    /*  CategoryStore */
+    #CategoryStore .bg-category h6 {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 10px;
+    }
+    #CategoryStore .bg-category {
+        background: #efefef;
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+    }
+    #CategoryStore h1,
+    #BarangTerbaru h1 {
+        font-size: 24px;
+    }
+    #CategoryStore span,
+    #BarangTerlaris span,
+    #BarangTerbaru span {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    /* Barang Terlaris */
+    #BarangTerlaris h1,
+    #BarangTerbaru h1 {
+        font-size: 18px;
+    }
+    #BarangTerlaris .best-scrollbar .card,
+    #BarangTerbaru .best-scrollbar .card {
+        min-width: 90px;
+        height: auto;
+        background: white;
+        margin-right: 7px;
+        margin-bottom: 20px;
+    }
+    #BarangTerlaris .best-scrollbar .scroll .card,
+    #BarangTerbaru .best-scrollbar .scroll .card {
+        padding: 5px;
+        width: 100%;
+        height: auto;
+    }
+    /* footer store */
+    #footer-store .bg-space {
+        background-color: #CB980C;
+        width: 100%;
+        height: auto;
+    }
+    #footer-store .logo {
+        margin: 30px;
+    }
+    #footer-store .bg-footer {
+        width: 100%;
+        height: auto;
+        background: #8FA8CD;
+        border-radius: 20px;
+        color: white;
+        padding: 25px;
+    }
+    #footer-store h1 {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    #footer-store h6 {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 30px;
+    }
+    /* Halaman List Product */
+    #ProductList h1 {
+        font-size: 24px;
+    }
+    #ProductList .best-scrollbar .card {
+        min-width: 90px;
+        height: auto;
+        background: white;
+        margin-right: 7px;
+        margin-bottom: 20px;
+    }
+    #ProductList .best-scrollbar .scroll .card {
+        padding: 5px;
+        width: 100%;
+        height: auto;
+    }
+    /* Halaman Deskripsi Produk */
+    #DeskripsiProduk .cover {
+        width: 100%;
+        height: auto;
+    }
+    #DeskripsiProduk .fa-minus-circle {
+        font-size: 40px;
+        color: red;
+    }
+    #DeskripsiProduk .fa-plus-circle {
+        font-size: 40px;
+        color: #49B054;
+    }
+    #DeskripsiProduk .bg-deskripsi {
+        background: #F8F5ED;
+        border-radius: 10px;
+        padding: 20px;
+        overflow: scroll;
+        width: 100%;
+        height: 150px;
+    }
+    #DeskripsiProduk .bg-deskripsi h6 {
+        line-height: 25px;
+    }
+    /* KeranjangStore */
+    #KeranjangStore .bg-keranjang {
+        background: #FFFFFF;
+        box-shadow: 0px 10px 20px rgba(133, 108, 108, 0.25);
+        border-radius: 25px;
+    }
+    #KeranjangStore .bg-transaksi {
+        background: #FFFFFF;
+        box-shadow: 0px 10px 20px rgba(106, 197, 109, 0.25);
+        padding: 10px;
+    }
+    #KeranjangStore .bg-transaksi span {
+        float: right;
+    }
+}
